@@ -3,14 +3,21 @@ MagicWand-PHP
 
 MagicWand Tool for PHP
 
-!Requires GD Library
+**Requires GD Library**
 
-USING:
-call the function magicWand with the following parameter:
-  magicWand(
-  @param x int, the x coordinate of the starting pixel
-  @param y int, the y coordinate of the starting pixel
-  @param tollerance int, the toolerance of the tool. 0 = only same color, 1 = all colors
-  @param imageHandle resource, the handle from imagecreatefrompng or any other GD creating instance
-  @return bool, return true at the end of the function
-  
+**USAGE:**
+call the magicWand function with the following parameters:
+
+magicWand(
+
+@param int x, the x coordinate of starting pixel
+
+@param int y, the y coordinate of starting pixel
+
+@param int tollerance, tollerant percentage. 0 = only exact same color, 1 = all colors
+
+@param resource imageHandle, the handle from any GD creating instance lik imagecreatefrompng
+
+@return bool, return true at the end of the function
+
+)
